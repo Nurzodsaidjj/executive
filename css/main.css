@@ -89,14 +89,7 @@ body {
 }
 
 .header__btn {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 17px;
-  text-align: center;
-  color: #505050;
-  padding: 10px 32px;
-  border: 2px solid var(--colors-primary);
-  border-radius: 11px;
+  display: none;
 }
 
 .header__btns {
@@ -138,6 +131,14 @@ body {
   }
   .header__btn {
     display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    color: #505050;
+    padding: 10px 32px;
+    border: 2px solid var(--colors-primary);
+    border-radius: 11px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -145,7 +146,14 @@ body {
     gap: 65px;
   }
   .header__btn {
-    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    color: #505050;
+    padding: 10px 32px;
+    border: 2px solid var(--colors-primary);
+    border-radius: 11px;
   }
 }
 .hero {
@@ -247,7 +255,7 @@ body {
   }
 }
 .about {
-  padding-top: 58px;
+  padding-top: 100px;
 }
 
 .about__title {
